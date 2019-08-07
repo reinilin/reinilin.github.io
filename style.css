@@ -63,7 +63,6 @@ a{
 }
 
 .section-2 a{
-    display: block;
     font-size: 16px;
 }
 /* animations / utilities */
@@ -71,7 +70,7 @@ a{
     font-size: 16px;
     color: #82bfe0;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 .section-1 a:hover{
