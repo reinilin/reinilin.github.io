@@ -15,8 +15,8 @@ body{
 
 }
 
-h2,.white{
-    color: #fff;
+h2,.black{
+    color: #000000;
 }
 
 a{
@@ -83,7 +83,7 @@ a{
     transition: 0.3s;
 }
 
-.white:hover{
+.black:hover{
     position: relative;
     padding-left: 10px;
 }
