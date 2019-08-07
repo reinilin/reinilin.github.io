@@ -71,7 +71,7 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 12px;
+    font-size: 16px;
     color: #82bfe0;
     cursor: pointer;
     transition: 0.2s;
