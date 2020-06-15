@@ -4,47 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>Reini Lin</title>
 </head>
 <body>
-    <div class="grid-2">
-        <div class="section-1">
-            <i class="fas fa-cloud fa-3x black"></i>
 
-            <h2>Reini Lin</h2>
-            <p>3rd-year CS student <br>@ UC Berkeley.
-            </p>
-            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a> -->
-            <p><a href="/">home</a>·<a href="/about">about</a></p>
-            <p>
-            <a href="https://www.linkedin.com/in/reini-lin/"><i class="fab fa-linkedin"></i></a>
-            <a href="mailto:reini.lin@berkeley.edu"><i class="far fa-envelope"></i></a>
-            </p>
-        </div>
-        <div class="section-2">
-            <h2>About</h2>
-            <p>Book enthusiast, Bay Area native, chocolate connoisseur. <br>Interested in the intersection of computer science and life science.</p>
+  <me><name>reini <redtext>lin</redtext></name>
+  </me>
 
-            <h2>Current</h2>
-            <li>Incoming Software Engineering Intern @ Samsara
-            <li>Corresponding Secretary of <a href="https://tbp.berkeley.edu/">Tau Beta Pi</a> @ UC Berkeley
-            <li>Instructor for <a href="https://e98.berkeley.edu/">Engineering 98</a>
-                <!--Aggressively fond of Breaking Bad, Sasha Sloan, and poetry. Mildly fond of Greek mythology, organic chemistry, and Oxford commas.-->
-
-            <h2>Coursework</h2>
-                <li>Probability & Random Processes
-                <li>Image Manipulation & Computational Photography
-                <li>Web Design
-                <li>Efficient Algorithms & Intractable Problems
-                <li>Machine Structures
-                <li>Data Structures & Algorithms
-                <li>Discrete Mathematics & Probability Theory
-                <li>Foundations of Data Science
-                <li>Linear Algebra & Differential Equations
-        </div>
+  <div id="squares">
+    <div class="sq" id="sq1">
+      <div class="icon" id="spade">♠</div>
     </div>
+    <div class="sq" id="sq3">
+      <div class="icon" id="club">♣</div>
+    </div>
+    <div class="sq" id="sq2">
+      <div class="icon" id="heart"><redtext>♥</redtext></div>
+    </div>
+    <div class="sq" id="sq4">
+      <div class="icon" id="diamond"><redtext>♦</redtext></div>
+    </div>
+  </div>
+
+
+  <div id="text1">about</div>
+    <div id="desc1">
+      4th-year <redtext>Computer Science</redtext> student @ UC Berkeley.<br><br>
+      SWE intern @ Samsara, book enthusiast, chocolate connoisseur.<br>
+      Fond of NYT crosswords & card games (Hearts, Spades, Big Two).
+  </div>
+
+  <div id="text2"><redtext>experience</redtext></div>
+    <div id="desc2">
+      Currently: SWE intern @ Samsara,<br>
+      corresponding secretary for Tau Beta Pi,<br>
+      maker of things (like this <a href ="http://quietudes.github.io">quiet room</a>).<br><br>
+
+      Previously: SWE intern @ ZEISS,<br>
+      instructor for Engineering 98,<br>
+      engineering intern @ Chevron.
+  </div>
+
+  <div id="text3">bookshelf</div>
+    <div id="desc3">
+      I’m always reading, writing, & adding to my endless to-read list.<br>
+      In 2020, I’ve read 16 books - here are some recent favorites.<br><br>
+
+      Prose: Normal People, And Then There Were None, Educated<br>
+      Poetry: Crush, Night Sky with Exit Wounds
+  </div>
+
+  <div id="text4"><redtext>coursework</redtext></div>
+    <div id="desc4">
+      Web Design<br>
+      Probability & Random Processes<br>
+      Image Manipulation & Computational Photography<br>
+      Efficient Algorithms & Intractable Problems<br>
+      Machine Structures<br>
+      Data Structures & Algorithms<br>
+      Discrete Mathematics & Probability Theory<br>
+      Foundations of Data Science<br>
+      Linear Algebra & Differential Equations<br>
+  </div>
+
+
+  <script type="text/javascript" src="assets/js/index.js"></script>
+
 </body>
 </html>
