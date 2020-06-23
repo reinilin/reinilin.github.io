@@ -1,7 +1,7 @@
 body {
   background-color: black;
   font-family: Lato;
-  font-size: 18px;
+  font-size: 16px;
   text-align:center;
   color: white;
 
@@ -24,8 +24,27 @@ me {
   left: 0px;
   margin: 50px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
+
+cross {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+bottom-links {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  text-align: left;
+  position: relative;
+}
+
+.link {
+  padding: 2px 0;
+}
+
 
 /*me:hover + #squares {
   position: absolute;
@@ -108,7 +127,7 @@ name {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translateX(-50%) translateY(-180px);
+  transform: translateX(-50%) translateY(-160px);
 }
 
 /*
@@ -143,7 +162,7 @@ name {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translateX(-50%) translateY(350px);
+  transform: translateX(-50%) translateY(320px);
 }
 
 .icon {
@@ -185,7 +204,7 @@ name {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translateX(-50%) translateX(400px) translateY(50px);
+  transform: translateX(-50%) translateX(370px) translateY(60px);
 }
 
 
@@ -210,7 +229,7 @@ name {
   position: absolute;
   top: 30%;
   left: 50%;
-  transform: translateX(-50%) translateX(-440px) translateY(30px);
+  transform: translateX(-50%) translateX(-400px) translateY(40px);
 }
 
 /*#sq4:hover {
