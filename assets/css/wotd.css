@@ -1,0 +1,46 @@
+body {
+  background-size: cover;
+  font-family: Avenir, Karla;
+  font-weight: 400;
+}
+
+#text {
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  color: #6C6B66;
+  text-align: center;
+  width: 400px;
+  background-color: rgba(255,255,255, 0.5);
+  border-radius: 20px;
+}
+
+#time {
+  font-weight: 800;
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+#greeting {
+  font-size: 25px;
+  padding-top: 20px;
+}
+
+#meow {
+  position: absolute;
+  left: 50%;
+  opacity: 0;
+  padding: 40px;
+  transform: translateX(-50%);
+}
+
+#wotd {
+  padding: 40px;
+  font-size: 14px;
+}
+
+a {
+  color: inherit;
+  text-decoration-style: dotted;
+}
